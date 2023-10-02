@@ -45,3 +45,54 @@ HTML tags are like keywords which defines that how web browser will format and d
 An HTML file is made of elements. These elements are responsible for creating web pages and define content in that webpage. An element in HTML usually consist of a start tag <tag name>, close tag </tag name> and content inserted between them. Technically, an element is a collection of start tag, attributes, end tag, content between them.
 
 ![Element](https://static.javatpoint.com/htmlpages/images/html-building-blocks.png)
+
+## Part 3 - Coding Start
+
+### Simple example of HTML.
+```html
+<!DOCTYPE>  
+<html>  
+<head>  
+<title>Web page title</title>  
+</head>  
+<body>  
+<h1>Heading</h1>  
+<p>Paragraph.</p>  
+</body>  
+</html>
+```
+`<!DOCTYPE>`: It defines the document type or it instruct the browser about the version of HTML.
+
+`<html >` :This tag informs the browser that it is an HTML document. Text between html tag describes the web document. It is a container for all other elements of HTML except <!DOCTYPE>
+
+`<head>`: It should be the first element inside the `<html>` element, which contains the metadata(information about the document). It must be closed before the body tag opens.
+
+`<title>`: As its name suggested, it is used to add title of that HTML page which appears at the top of the browser window. It must be placed inside the head tag and should close immediately.
+
+`<body>` : Text between body tag describes the body content of the page that is visible to the end user. This tag contains the main content of the HTML document.
+
+`<h1>` : Text between `<h1>` tag describes the first level heading of the webpage.
+
+`<p>` : Text between `<p>` tag describes the paragraph of the webpage.
+
+## Part 4 - HTML Formatting
+
+HTML Formatting is a process of formatting text for better look and feel. HTML provides us ability to format text without using CSS. There are many formatting tags in HTML. These tags are used to make text bold, italicized, or underlined. 
+
+|Element Name|Description|
+|----|----|
+|`<b>`|This is a physical tag, which is used to bold the text written between it.|
+|----|----|
+|`<strong>`|This is a logical tag, which tells the browser that the text is important.|
+|----|----|
+|`<i>`|	This is a physical tag which is used to make text italic.|
+|----|----|
+|`<em>`|This is a logical tag which is used to display content in italic.|
+|----|----|
+|`<mark>`|This tag is used to highlight text.|
+|----|----|
+|`<u>`|	This tag is used to underline text written between it.|
+|----|----|
+|`<sup>`|It displays the content slightly above the normal line.|
+|----|----|
+|`<sub>`|It displays the content slightly below the normal line.|
