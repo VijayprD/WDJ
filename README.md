@@ -80,19 +80,12 @@ An HTML file is made of elements. These elements are responsible for creating we
 HTML Formatting is a process of formatting text for better look and feel. HTML provides us ability to format text without using CSS. There are many formatting tags in HTML. These tags are used to make text bold, italicized, or underlined. 
 
 |Element Name|Description|
-|----|----|
+
 |`<b>`|This is a physical tag, which is used to bold the text written between it.|
-|----|----|
 |`<strong>`|This is a logical tag, which tells the browser that the text is important.|
-|----|----|
 |`<i>`|	This is a physical tag which is used to make text italic.|
-|----|----|
 |`<em>`|This is a logical tag which is used to display content in italic.|
-|----|----|
 |`<mark>`|This tag is used to highlight text.|
-|----|----|
 |`<u>`|	This tag is used to underline text written between it.|
-|----|----|
 |`<sup>`|It displays the content slightly above the normal line.|
-|----|----|
 |`<sub>`|It displays the content slightly below the normal line.|
