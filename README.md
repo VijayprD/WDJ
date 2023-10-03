@@ -96,3 +96,54 @@ HTML Formatting is a process of formatting text for better look and feel. HTML p
 |`<sup>`|It displays the content slightly above the normal line.|
 
 |`<sub>`|It displays the content slightly below the normal line.|
+
+## Part 5 - HTML Heading tags
+
+A HTML heading or HTML h tag can be defined as a title or a subtitle which you want to display on the webpage. When you place the text within the heading tags `<h1>.........</h1>`, it is displayed on the browser in the bold format and size of the text depends on the number of heading.
+
+There are six different HTML headings which are defined with the `<h1>` to `<h6>` tags, from highest level h1 (main heading) to the least level h6 (least important heading).
+
+h1 is the largest heading tag and h6 is the smallest one. So h1 is used for most important heading and h6 is used for least important.
+
+Example:-
+
+```html
+<!DOCTYPE>  
+<html>  
+<head>  
+<title>Web page title</title>  
+</head>  
+<body>
+    <h1>I am h1</h1>
+    <h2>I am h2</h2>
+    <h3>I am h3</h3>
+    <h4>I am h4</h4>
+    <h5>I am h5</h5>
+    <h6>I am h6</h6>
+  </body> 
+</html>
+```
+## Part 5 - HTML Paragraph tag
+
+### Paragraph tag.
+HTML paragraph or HTML p tag is used to define a paragraph in a webpage. Let's take a simple example to see how it work. It is a notable point that a browser itself add an empty line before and after a paragraph. An HTML <p> tag indicates starting of new paragraph.
+
+```html
+<!DOCTYPE>  
+<html>  
+<head>  
+<title>Web page title</title>  
+</head>  
+<body>
+    <p>I am Paragraph</p>
+    <p>I am Another Paragraph</p>
+    <p>
+      I am going to provide you a tutorial on HTML and hope that it will be very
+      beneficial for you.
+    </p>
+  </body>
+</html>
+```
+### Space inside HTML Paragraph
+
+If you put a lot of spaces inside the HTML p tag, browser removes extra spaces and extra line while displaying the page. The browser counts number of spaces and lines as a single one.
